@@ -8,6 +8,7 @@
   <meta name="keywords" content="cr, ca, college ambassador, job, student job, college job, summer inrern, summer job, college representative, college rep, campus ambassador, campus representative, campus intern, techfest, techfest IIT Bombay, IIT Bombay, techfest college ambassador, techfest college representative, iit intern, techfest intern, intern, campus abassador, campus representative, college, opportunity, ambassador, resume, skill development, intern opportunity,  Asia's largest science and technology festival, science, tecnology, STEM, engineering, campus, IIT, Indian Institute of Technology, network, India, Pan india, student ambassador, student representative, student intern, techfest 2019-2020">
   <meta name="viewport" content= "width=device-width, user-scalable=no">
   <title>CA | Techfest, IIT-Bombay</title>
+  <link rel="shortcut icon" type="image/x-icon" href="Images/favicon_logo.png" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -45,27 +46,45 @@
     nav {
     	background-color: black;
     }
-    @media only screen and (max-width:1300px) {
+    #section2 .card{
+      width: 30vw;
+      justify-content: center;
+      left: 20vw;
+    }
+    @media only screen and (max-width:768px) {
 	  nav>ul>li>a{
-	  	font-size: 10px;
-	  }
+      font-size: 10px;
+    }
+    #section2 .card{
+      width: 50vw;
+    }
 	}
       #section0
       {
-        background-image: url("/Images/Background.png");
+        background-image: url("Images/Background.jpg");
         padding-bottom: 210px;
         padding-top: 210px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        display:block;
       }
   </style>
 </head>
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
 
-  <div class="container-fluid" style="padding-right: 80px;">
+  <div class="container-fluid">
     
-    <div class="row" style="padding-bottom: 30px;">
+    <div class="row">
       
-      <nav class="col-sm-3 col-4 col-md-3" id="myScrollspy">
-        <ul class="nav flex-column">
+    <nav class="col-md-3 navbar navbar-expand-md" id="myScrollspy">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav flex-column">
           <li class="nav-item">
             <a class="nav-link active" href="#section0"><img src="Images/logo.png" style="width: 250px;"></a>
           </li>
@@ -91,7 +110,8 @@
             <img title="Sign in to become a CA right now!" src="Images\signin.svg" id="signinButton" style="max-width: 70%; margin-left:1%; margin-bottom: 0; font-size: 32px" >
           </li>
         </ul>
-      </nav>
+      </div>
+    </nav>
 
       <div class="col-sm-9 col-8">
 
@@ -115,9 +135,8 @@ and newbies alike.
           <h2>Why become a CA?</h2>
           <br>
           <div class="row">
-            <div class="col-1">            </div>
-            <div class="col-6">
-              <div class="card" style="width: 25rem;">
+            <div class="col-md-6">
+              <div class="card">
                 <div class="card-body">
                   <h6 class="card-subtitle mb-2 text-muted">YOU ARE</h6>
                   <h5 class="card-title">INQUISITIVE</h5>
@@ -125,8 +144,8 @@ and newbies alike.
                 </div>
               </div>
             </div>
-            <div class="col-3">
-              <div class="card" style="width: 25rem;">
+            <div class="col-md-3">
+              <div class="card">
                 <div class="card-body">
                   <h6 class="card-subtitle mb-2 text-muted">YOU ARE</h6>
                   <h5 class="card-title">INNOVATIVE</h5>
@@ -137,9 +156,8 @@ and newbies alike.
           </div>
           <br><br>
           <div class="row">
-            <div class="col-1">            </div>
-            <div class="col-6">
-              <div class="card" style="width: 25rem;">
+            <div class="col-md-3">
+              <div class="card">
                 <div class="card-body">
                   <h6 class="card-subtitle mb-2 text-muted">YOU ARE</h6>
                   <h5 class="card-title">A LEADER</h5>
@@ -148,8 +166,8 @@ and newbies alike.
                 </div>
               </div>
             </div>
-            <div class="col-3">
-              <div class="card" style="width: 25rem;">
+            <div class="col-md-3">
+              <div class="card">
                 <div class="card-body">
                   <h6 class="card-subtitle mb-2 text-muted">YOU ARE</h6>
                   <h5 class="card-title">UP TO DATE</h5>
@@ -164,7 +182,7 @@ and newbies alike.
           <h2>Incentives</h2>
           <div class="row" style="padding-left: 60px;">
             
-            <div class="col-4">
+            <div class="col-md-4">
               <div class="card" style="width: 15rem;">
                 <div class="card-body">
                   <h5 class="card-title">FREE FOOD COUPONS</h5>
@@ -174,7 +192,7 @@ and newbies alike.
                 
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <div class="card" style="width: 15rem;">
                 <div class="card-body">
                   <h5 class="card-title">INTERNSHIP OPPORTUNITIES</h5>
@@ -185,7 +203,7 @@ and newbies alike.
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <div class="card" style="width: 15rem;">
                 <div class="card-body">
                   <h5 class="card-title">FREE COURSES</h5>
@@ -304,6 +322,7 @@ and newbies alike.
         </div>
        
   </div>
+</div>
   
     
 
